@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto IA</title>
+    <!-- <script src="projeto_ia.js" type="module"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="perceptron.js" defer></script>
+</head>
+<body>
+
+    <h1>Valores do X</h1>
+    <div class="container">
+        <div>
+            <h2>Valores 1</h2>
+            <p>Valor do X1</p>
+            <input type="text" placeholder="Valor do X1" class="valorX1">
+            <p>Valor do X2</p>
+            <input type="text" placeholder="Valor do X1" class="valorX2">
+            <p>Valor do Bias</p>
+            <input type="text" placeholder="Valor do Bias" class="valorBias1">
+            <p>Valor Esperado</p>
+            <input type="text" placeholder="Valor Esperado" class="valorEsperado1">
+        </div>
+        <div>
+            <h2>Valores 2</h2>
+            <p>Valor do X1</p>
+            <input type="text" placeholder="Valor do X3" class="valorX3">
+            <p>Valor do X2</p>
+            <input type="text" placeholder="Valor do X4" class="valorX4">
+            <p>Valor do Bias</p>
+            <input type="text" placeholder="Valor do Bias" class="valorBias2">
+            <p>Valor Esperado</p>
+            <input type="text" placeholder="Valor do Esperado" class="valorEsperado2">
+        </div>
+        <div>
+            <h2>Valores 3</h2>
+            <p>Valor do X1</p>
+            <input type="text" placeholder="Valor do X5" class="valorX5">
+            <p>Valor do X2</p>
+            <input type="text" placeholder="Valor do X6" class="valorX6">
+            <p>Valor do Bias</p>
+            <input type="text" placeholder="Valor do Bias" class="valorBias3">
+            <p>Valor Esperado</p>
+            <input type="text" placeholder="Valor Esperado" class="valorEsperado3">
+        </div>
+    </div>
+
+    <h1>Valores do W</h1>
+    <p>Valor do W1</p>
+    <input type="text" placeholder="Valor do W1" class="valorW1">
+    <p>Valor do W2</p>
+    <input type="text" placeholder="Valor do W2" class="valorW2">
+    <p>Valor do WBias</p>
+    <input type="text" placeholder="Valor do WBias" class="valorWBias">
+
+    <h2>Taxa de Aprendizagem</h2>
+    <input type="text" placeholder="Valor da Taxa de Aprendizagem" class="taxaAprendizagem">
+
+    <button class="btn">
+        Calcular
+    </button>
+
+    <div>
+        <div>
+            <p class="taxaAprendizagem">Taxa de aprendizagem = <strong class="minhaTaxaAprendizagem"></strong></p>
+        </div>
+        <div>
+        <div>
+            <h2 class="texto_entradas">Entradas</h2>
+        </div>
+            <div class="entradas">
+                <div class="entradas__aux">
+                    <p>X1</p>
+                    <p>X12</p>
+                    <p>Bias</p>
+                    <p>W1</p>
+                    <p>W2</p>
+                    <p>WBias</p>
+                </div>
+                <div class="entradas__secundaria">
+                    <p>Valor Esperado</p>
+                    <p>F(Net)</p>
+                    <p>Saída Y</p>
+                    <p>Diferença d</p>
+                </div>
+                <div class="entradas__terceiro">
+                    <p>&Delta;w1</p>
+                    <p>&Delta;w2</p>
+                    <p>&Delta;w3</p>
+                </div>
+            </div>  
+            <div class="entradasResposta"></div>
+        </div>
+</body>
+</html>
