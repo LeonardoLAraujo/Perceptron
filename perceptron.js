@@ -37,8 +37,6 @@ class Perceptron{
         this.diferenca3 = false;
 
         btnCalcular.addEventListener("click", () => {
-            
-
             this.calcular();
         });
     }
