@@ -16,7 +16,7 @@ const valorX6                   = document.querySelector(".valorX6");
 const valorBias3                = document.querySelector(".valorBias3");
 const valorEsperado3            = document.querySelector(".valorEsperado3");
 
-//Valores 3
+//Valores W
 const valorW1                   = document.querySelector(".valorW1");
 const valorW2                   = document.querySelector(".valorW2");
 const valorWBias                = document.querySelector(".valorWBias");
